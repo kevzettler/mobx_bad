@@ -1,0 +1,29 @@
+{
+  "name": "mobx_bad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "babel-node": "0.0.1-security"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-preset-mobx": "^2.0.0",
+    "mobx": "^5.15.2"
+  },
+  "scripts": {
+    "start": "npx babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "plugins": [],
+    "presets": [
+      "@babel/preset-env",
+      "mobx"
+    ]
+  }
+}
